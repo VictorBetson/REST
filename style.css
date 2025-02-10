@@ -1,0 +1,66 @@
+
+.main{
+    background: white;
+    width:70%;
+    margin: 0 auto;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+      background: white;
+    position: sticky;
+    top: 10px;
+  }
+  
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  
+  
+  .container .BTB {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .BTB:hover {
+    background-color: black;
+  }
+  
+  .ProductHold {
+    display:flex;
+    justify-content: space-around;
+  }
+  .prod {
+    width:30%
+  }
+  .Sorse {
+    width:100%
+  }
+  
+  p {
+    font-size:3vw;
+  }
+  
+  
+  
+  @media screen and (max-width: 480px) {
+     div{flex-direction:column;
+     margin: 0 auto}
+     nav{flex-direction:column;
+  text-align:center;
+  }
+  }
+  
