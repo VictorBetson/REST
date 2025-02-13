@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+
+
 
 .main{
-    background: white;
-    width:70%;
+    background: #BD6E2D;
+    width:100%;
     margin: 0 auto;
+     
+      font-family: "Goldman", serif;
+      font-weight: 400;
+      font-style: normal;
+    
   }
   
   nav{
@@ -11,6 +20,12 @@
       background: white;
     position: sticky;
     top: 10px;
+    .goldman-bold {
+      font-family: "Goldman", serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
   }
   
   .container {
@@ -52,6 +67,7 @@
   
   p {
     font-size:3vw;
+  
   }
   
   
@@ -63,4 +79,3 @@
   text-align:center;
   }
   }
-  
