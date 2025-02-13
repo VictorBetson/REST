@@ -5,7 +5,7 @@
 
 .main{
     background: #BD6E2D;
-    width:100%;
+    width: 65%;
     margin: 0 auto;
      
       font-family: "Goldman", serif;
@@ -17,7 +17,7 @@
   nav{
     display: flex;
     justify-content: space-around;
-      background: white;
+      background: #C2332F;
     position: sticky;
     top: 10px;
     .goldman-bold {
