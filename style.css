@@ -27,6 +27,9 @@
     }
     
   }
+  .splas {
+    width:200%
+  }
   
   .container {
     position: relative;
@@ -41,7 +44,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: chocolate;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
@@ -50,8 +53,14 @@
     border-radius: 5px;
   }
   
+  .container .PRESS {
+ position: absolute;
+    top: 50%;
+    left: 70%;
+    color: antiquewhite;
+  }
   .container .BTB:hover {
-    background-color: black;
+    background-color: chocolate;
   }
   
   .ProductHold {
